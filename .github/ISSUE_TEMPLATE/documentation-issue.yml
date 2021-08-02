@@ -16,9 +16,9 @@ body:
       label: Able to fix / change the documentation?
       description: Can you handle this change and create a Pull Request?
       options:
-        - label: Yes
+        - label: 'Yes'
           required: false
-        - label: No
+        - label: 'No'
           required: false
   - type: checkboxes
     id: terms
