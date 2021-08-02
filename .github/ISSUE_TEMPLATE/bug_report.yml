@@ -65,11 +65,13 @@ body:
   - type: checkboxes
     id: fixthebug
     attributes:
-      label: Able to fix this bug?
-      description: Can you handle this bug and create a Pull Request which can fix this?
+      label: Able to fix / change the documentation?
+      description: Can you handle this change and create a Pull Request?
       options:
-        - label: Yes
-        - label: No
+        - label: 'Yes'
+          required: false
+        - label: 'No'
+          required: false
   - type: checkboxes
     id: terms
     attributes:
