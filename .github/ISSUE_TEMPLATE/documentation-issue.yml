@@ -17,7 +17,9 @@ body:
       description: Can you handle this change and create a Pull Request?
       options:
         - label: Yes
+          required: false
         - label: No
+          required: false
   - type: checkboxes
     id: terms
     attributes:
